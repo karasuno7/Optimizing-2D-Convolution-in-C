@@ -1,14 +1,14 @@
 # Optimizing-2D-Convolution-in-C
 A SIMD and OpenMP based optimization for naive 2D convolution
 
-The codebase has the following files:\
-1. base.c (Base Code)\
-2. Main.c (Basic Kernel Implementation)\
-3. Main_optimized.c (Optimized Kernel Implementation)\
-4. Conv_mpi.c (OpenMP-based Parallelized Implementation)\
+The codebase has the following files:
+1. base.c (Base Code)
+2. Main.c (Basic Kernel Implementation)
+3. Main_optimized.c (Optimized Kernel Implementation)
+4. Conv_mpi.c (OpenMP-based Parallelized Implementation)
 5. Makefile (Compiles and Runs all experiments)
 
-For complete analysis and implementation details [refer here](Optimization of 2D Convolutions.pdf)
+For complete analysis and implementation details [refer here] (./Optimization of 2D Convolutions.pdf)
 
 **Compile and Run:**
 
