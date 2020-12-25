@@ -1,0 +1,238 @@
+-bash-4.2$ gcc -O2 conv_mpi.c -o conv_mpi_l.x -std=c99 -DN=22687 -DNUM_A=109410 -fopenmp
+-bash-4.2$ ./conv_mpi_l.x 
+size Result: 1021
+
+Average time: 10048121.120000 cycles
+-bash-4.2$ gcc -O2 conv_mpi.c -o conv_mpi_l.x -std=c99 -DN=22687 -DNUM_A=109410 -fopenmp
+-bash-4.2$ ./conv_mpi_l.x 
+size Result: 1021
+
+Average time: 18186507.440000 cycles
+-bash-4.2$ gcc -O2 conv_mpi.c -o conv_mpi_l.x -std=c99 -DN=22687 -DNUM_A=109410 -fopenmp
+-bash-4.2$ ./conv_mpi_l.x 
+size Result: 1021
+
+Average time: 9402109.360000 cycles
+-bash-4.2$ gcc -O2 conv_mpi.c -o conv_mpi_l.x -std=c99 -DN=22687 -DNUM_A=109410 -fopenmp
+-bash-4.2$ ./conv_mpi_l.x 
+size Result: 1021
+
+Average time: 6392550.720000 cycles
+-bash-4.2$ gcc -O2 conv_mpi.c -o conv_mpi_l.x -std=c99 -DN=22687 -DNUM_A=109410 -fopenmp
+-bash-4.2$ ./conv_mpi_l.x 
+size Result: 1021
+
+Average time: 15798891.840000 cycles
+-bash-4.2$ gcc -O2 conv_mpi.c -o conv_mpi_l.x -std=c99 -DN=22687 -DNUM_A=109410 -fopenmp
+-bash-4.2$ ./conv_mpi_l.x 
+size Result: 1021
+
+Average time: 6331070.000000 cycles
+-bash-4.2$ gcc -O2 conv_mpi.c -o conv_mpi_l.x -std=c99 -DN=22687 -DNUM_A=109410 -fopenmp
+-bash-4.2$ ./conv_mpi_l.x 
+size Result: 1021
+
+Average time: 5945083.920000 cycles
+-bash-4.2$ gcc -O2 conv_mpi.c -o conv_mpi_l.x -std=c99 -DN=22687 -DNUM_A=109410 -fopenmp
+-bash-4.2$ ./conv_mpi_l.x 
+size Result: 1021
+
+Average time: 6394198.400000 cycles
+-bash-4.2$ gcc -O2 conv_mpi.c -o conv_mpi_l.x -std=c99 -DN=22687 -DNUM_A=109410 -fopenmp
+-bash-4.2$ ./conv_mpi_l.x 
+size Result: 1021
+
+Average time: 5450965.040000 cycles
+-bash-4.2$ gcc -O3 conv_mpi.c -o conv_mpi_l.x -std=c99 -DN=22687 -DNUM_A=109410 -fopenmp
+-bash-4.2$ ./conv_mpi_l.x 
+size Result: 1021
+
+Average time: 6784724.240000 cycles
+-bash-4.2$ gcc -O3 conv_mpi.c -o conv_mpi_l.x -std=c99 -DN=22687 -DNUM_A=109410 -fopenmp
+-bash-4.2$ ./conv_mpi_l.x 
+size Result: 1021
+
+Average time: 7000895.600000 cycles
+-bash-4.2$ gcc -O2 -Wall -mavx -mavx2 -mfma main_optimized.c -o main_optimized.x -std=c99
+-bash-4.2$ ./main_optimized.x 
+size Result: 2045
+
+Average time: 25968712.472000 cycles
+-bash-4.2$ gcc -O2 conv_mpi.c -o conv_mpi_l.x -std=c99 -DN=22687 -DNUM_A=109410 -fopenmp
+-bash-4.2$ ./conv_mpi_l.x 
+size Result: 1021
+
+Average time: 6529542.160000 cycles
+-bash-4.2$ gcc -O2 conv_mpi.c -o conv_mpi_l.x -std=c99 -DN=22687 -DNUM_A=109410 -fopenmp
+-bash-4.2$ ./conv_mpi_l.x 
+size Result: 2045
+
+Average time: 19803247.920000 cycles
+-bash-4.2$ gcc -O2 conv_mpi.c -o conv_mpi_l.x -std=c99 -DN=22687 -DNUM_A=109410 -fopenmp
+-bash-4.2$ ./conv_mpi_l.x 
+size Result: 509
+
+Average time: 2885476.960000 cycles
+-bash-4.2$ gcc -O2 conv_mpi.c -o conv_mpi_l.x -std=c99 -DN=22687 -DNUM_A=109410 -fopenmp
+-bash-4.2$ ./conv_mpi_l.x 
+size Result: 509
+
+Average time: 2326824.240000 cycles
+-bash-4.2$ gcc -O2 conv_mpi.c -o conv_mpi_l.x -std=c99 -DN=22687 -DNUM_A=109410 -fopenmp
+-bash-4.2$ ./conv_mpi_l.x 
+size Result: 509
+
+Average time: 2500914.960000 cycles
+-bash-4.2$ ./conv_mpi_l.x 
+size Result: 509
+
+Average time: 2472331.760000 cycles
+-bash-4.2$ ./conv_mpi_l.x 
+size Result: 509
+
+Average time: 2470838.560000 cycles
+-bash-4.2$ gcc -O2 conv_mpi.c -o conv_mpi_l.x -std=c99 -DN=22687 -DNUM_A=109410 -fopenmp
+-bash-4.2$ ./conv_mpi_l.x 
+size Result: 509
+
+Average time: 1916736.960000 cycles
+-bash-4.2$ gcc -O2 conv_mpi.c -o conv_mpi_m.x -std=c99 -DN=9877 -DNUM_A=51946 -fopenmp
+-bash-4.2$ ./conv_mpi_m.x 
+size Result: 509
+
+Average time: 1999166.160000 cycles
+-bash-4.2$ gcc -O2 conv_mpi.c -o conv_mpi_m.x -std=c99 -DN=9877 -DNUM_A=51946 -fopenmp
+-bash-4.2$ ./conv_mpi_m.x 
+size Result: 509
+
+Average time: 2366456.880000 cycles
+-bash-4.2$ gcc -O2 conv_mpi.c -o conv_mpi_m.x -std=c99 -DN=9877 -DNUM_A=51946 -fopenmp
+-bash-4.2$ ./conv_mpi_m.x 
+size Result: 509
+
+Average time: 1735212.720000 cycles
+-bash-4.2$ gcc -O2 conv_mpi.c -o conv_mpi_m.x -std=c99 -DN=9877 -DNUM_A=51946 -fopenmp
+-bash-4.2$ ./conv_mpi_m.x 
+size Result: 509
+
+Average time: 1703274.240000 cycles
+-bash-4.2$ gcc -O2 conv_mpi.c -o conv_mpi_m.x -std=c99 -DN=9877 -DNUM_A=51946 -fopenmp
+-bash-4.2$ ./conv_mpi_m.x 
+size Result: 125
+
+Average time: 140559.920000 cycles
+-bash-4.2$ gcc -O2 conv_mpi.c -o conv_mpi_m.x -std=c99 -DN=9877 -DNUM_A=51946 -fopenmp
+-bash-4.2$ ./conv_mpi_m.x 
+size Result: 125
+
+Average time: 125854.720000 cycles
+-bash-4.2$ gcc -O2 conv_mpi.c -o conv_mpi.x -std=c99 -DN=6474 -DNUM_A=25144 -fopenmp
+-bash-4.2$ ./conv_mpi.x 
+size Result: 125
+
+Average time: 219837.760000 cycles
+-bash-4.2$ gcc -O2 conv_mpi.c -o conv_mpi.x -std=c99 -DN=6474 -DNUM_A=25144 -fopenmp
+-bash-4.2$ ./conv_mpi.x 
+size Result: 61
+Average time: 193473.200000 cycles
+-bash-4.2$ gcc -O2 conv_mpi.c -o conv_mpi.x -std=c99 -DN=6474 -DNUM_A=25144 -fopenmp
+-bash-4.2$ ./conv_mpi.x 
+size Result: 61
+Average time: 112950.720000 cycles
+-bash-4.2$ ./conv_mpi.x 
+size Result: 61
+Average time: 104748.240000 cycles
+-bash-4.2$ gcc -O2 conv_mpi.c -o conv_mpi.x -std=c99 -DN=6474 -DNUM_A=25144 -fopenmp
+-bash-4.2$ ./conv_mpi.x 
+size Result: 61
+Average time: 64004.720000 cycles
+-bash-4.2$ gcc -O2 conv_mpi.c -o conv_mpi.x -std=c99 -DN=6474 -DNUM_A=25144 -fopenmp
+-bash-4.2$ ./conv_mpi.x 
+size Result: 61
+Average time: 66277.360000 cycles
+-bash-4.2$ gcc -O2 conv_mpi.c -o conv_mpi.x -std=c99 -DN=6474 -DNUM_A=25144 -fopenmp
+-bash-4.2$ ./conv_mpi.x 
+size Result: 61
+Average time: 87872.720000 cycles
+-bash-4.2$ rm -rf *~
+-bash-4.2$ rm -rf *.x
+-bash-4.2$ gcc -O2 conv_mpi.c -o conv_mpi.x -std=c99 -DN=6474 -DNUM_A=25144 -fopenmp
+-bash-4.2$ ./conv_mpi.x 
+size Result: 61
+Average time: 64364.800000 cycles
+-bash-4.2$ gcc -O2 conv_mpi.c -o conv_mpi.x -std=c99 -DN=6474 -DNUM_A=25144 -fopenmp
+-bash-4.2$ ./conv_mpi.x 
+size Result: 61
+Average time: 73008.560000 cycles
+-bash-4.2$ gcc -O2 conv_mpi.c -o conv_mpi.x -std=c99 -DN=6474 -DNUM_A=25144 -fopenmp
+-bash-4.2$ ./conv_mpi.x 
+size Result: 61
+Average time: 77619.600000 cycles
+-bash-4.2$ gcc -O2 conv_mpi.c -o conv_mpi.x -std=c99 -DN=6474 -DNUM_A=25144 -fopenmp
+-bash-4.2$ ./conv_mpi.x 
+size Result: 61
+Average time: 66420.560000 cycles
+-bash-4.2$ gcc -O2 conv_mpi.c -o conv_mpi.x -std=c99 -DN=6474 -DNUM_A=25144 -fopenmp
+-bash-4.2$ ./conv_mpi.x 
+size Result: 61
+Average time: 62822.800000 cycles
+-bash-4.2$ gcc -O2 conv_mpi.c -o conv_mpi.x -std=c99 -DN=6474 -DNUM_A=25144 -fopenmp
+-bash-4.2$ ./conv_mpi.x 
+size Result: 29
+Average time: 43671.920000 cycles
+-bash-4.2$ gcc -O2 conv_mpi.c -o conv_mpi.x -std=c99 -DN=6474 -DNUM_A=25144 -fopenmp
+-bash-4.2$ ./conv_mpi.x 
+size Result: 29
+Average time: 37618.080000 cycles
+-bash-4.2$ gcc -O2 conv_mpi.c -o conv_mpi.x -std=c99 -DN=6474 -DNUM_A=25144 -fopenmp
+-bash-4.2$ ./conv_mpi.x 
+size Result: 29
+Average time: 53742.560000 cycles
+-bash-4.2$ gcc -O2 conv_mpi.c -o conv_mpi.x -std=c99 -DN=6474 -DNUM_A=25144 -fopenmp
+-bash-4.2$ ./conv_mpi.x 
+size Result: 13
+Average time: 20493.280000 cycles
+-bash-4.2$ gcc -O2 conv_mpi.c -o conv_mpi.x -std=c99 -DN=6474 -DNUM_A=25144 -fopenmp
+-bash-4.2$ ./conv_mpi.x 
+size Result: 13
+Average time: 21786.080000 cycles
+-bash-4.2$ gcc -O2 conv_mpi.c -o conv_mpi.x -std=c99 -DN=6474 -DNUM_A=25144 -fopenmp
+-bash-4.2$ ./conv_mpi.x 
+size Result: 13
+Average time: 28250.640000 cycles
+-bash-4.2$ gcc -O2 conv_mpi.c -o conv_mpi.x -std=c99 -DN=6474 -DNUM_A=25144 -fopenmp
+-bash-4.2$ ./conv_mpi.x 
+size Result: 13
+Average time: 21840.720000 cycles
+-bash-4.2$ gcc -O2 conv_mpi.c -o conv_mpi.x -std=c99 -DN=6474 -DNUM_A=25144 -fopenmp
+-bash-4.2$ ./conv_mpi.x 
+size Result: 5
+Average time: 13036.480000 cycles
+-bash-4.2$ gcc -O2 conv_mpi.c -o conv_mpi.x -std=c99 -DN=6474 -DNUM_A=25144 -fopenmp
+-bash-4.2$ ./conv_mpi.x 
+size Result: 5
+Average time: 14707.200000 cycles
+-bash-4.2$ gcc -O2 conv_mpi.c -o conv_mpi.x -std=c99 -DN=6474 -DNUM_A=25144 -fopenmp
+-bash-4.2$ ./conv_mpi.x 
+size Result: 5
+Average time: 6056.880000 cycles
+-bash-4.2$ gcc -O2 conv_mpi.c -o conv_mpi.x -std=c99 -DN=6474 -DNUM_A=25144 -fopenmp
+-bash-4.2$ ./conv_mpi.x 
+size Result: 5
+Average time: 5524.080000 cycles
+-bash-4.2$ gcc -O2 conv_mpi.c -o conv_mpi.x -std=c99 -DN=6474 -DNUM_A=25144 -fopenmp
+-bash-4.2$ ./conv_mpi.x 
+size Result: 5
+Average time: 5746.960000 cycles
+-bash-4.2$ gcc -O2 conv_mpi.c -o conv_mpi.x -std=c99 -DN=6474 -DNUM_A=25144 -fopenmp
+-bash-4.2$ ./conv_mpi.x 
+size Result: 13
+Average time: 19967.040000 cycles
+-bash-4.2$ gcc -O2 conv_mpi.c -o conv_mpi.x -std=c99 -DN=6474 -DNUM_A=25144 -fopenmp
+-bash-4.2$ ./conv_mpi.x 
+size Result: 13
+Average time: 20463.200000 cycles
+-bash-4.2$ gcc -O2 conv_mpi.c -o conv_mpi.x -std=c99 -DN=6474 -DNUM_A=25144 -fopenmp
+-bash-4.2$ ./conv_mpi.x 
+size Result: 13
+Average time: 20482.720000 cycles
