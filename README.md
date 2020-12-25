@@ -7,6 +7,7 @@ The codebase has the following files:
 3. Main_optimized.c (Optimized Kernel Implementation)
 4. Conv_mpi.c (OpenMP-based Parallelized Implementation) 5. Makefile (Compiles and Runs all experiments)
 
+[For complete analysis and implementation details](./Optimization of 2D Convolutions.pdf)
 
 **Compile and Run:**
 
