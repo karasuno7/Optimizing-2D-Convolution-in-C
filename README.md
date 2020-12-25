@@ -7,17 +7,21 @@ The codebase has the following files:
 3. Main_optimized.c (Optimized Kernel Implementation)
 4. Conv_mpi.c (OpenMP-based Parallelized Implementation) 5. Makefile (Compiles and Runs all experiments)
 
-[For complete analysis and implementation details](./Optimization of 2D Convolutions.pdf)
+For complete analysis and implementation details [refer here](./Optimization of 2D Convolutions.pdf)
 
 **Compile and Run:**
 
 Inside the MakeFile instructions on how to compile and run each model and corresponding input parameters is given:
 
 **For OpenMP**:\
+```
 ./filename.x img_size threads runs
+```
 
 **For Other Models:**\
+```
 ./filename.x img_size runs
+```
 
 **Correctness:**
 
@@ -27,10 +31,15 @@ For checking the correctness of the implementation:
 - uncomment the lines 73-78 in base.c
 - uncomment the lines 76-81 in conv_mpi.c
 
-**Run:**
-./filename.x img_size 1 (for main_optimised.c and base.c)
-
-./filename.x img_size 1 1 (for conv_mpi.c)
+**Run:**\
+for main_optimised.c and base.c\
+```
+./filename.x img_size 1 
+```
+for conv_mpi.c\
+```
+./filename.x img_size 1 1 
+```
 
 
 The output should be img_size-3 x img_size matrix-3 with each value = 32.0 double floating point.
