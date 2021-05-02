@@ -8,7 +8,7 @@ The codebase has the following files:
 4. Conv_mpi.c (OpenMP-based Parallelized Implementation)
 5. Makefile (Compiles and Runs all experiments)
 
-For complete analysis and implementation details [refer here] (./Optimization of 2D Convolutions.pdf)
+For complete analysis and implementation details [refer here](Optimization of 2D Convolutions.pdf)
 
 **Compile and Run:**
 
